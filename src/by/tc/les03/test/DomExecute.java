@@ -14,7 +14,7 @@ import by.tc.les03.service.impl.BaseDomParser2;
 public class DomExecute {
 	
 	
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws SAXException, IOException {
 		
 		BaseDomParser domParser = new BaseDomParser();
 		domParser.parse("src/res/web.xml");
@@ -22,6 +22,11 @@ public class DomExecute {
 		Document document = domParser.getDocument();
 		document.read();
 		document.getAllElemens();
+		
+		//BaseDomParser2 baseDomParser2 = new BaseDomParser2();
+		//baseDomParser2.parse("c:/web.xml");
+		//baseDomParser2.read();
+		//baseDomParser2.getAllElemens();
 		
 		
 	}
