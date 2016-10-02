@@ -4,10 +4,10 @@
 
 	<display-name>Servlet 2.4 application</display-name>
 	<welcome-file-list>
-			<welcome-file>index.html</welcome-file>
-			<welcome-file>index.htm</welcome-file>
-			<welcome-file>index.jsp</welcome-file>
-			<welcome-file>default.html</welcome-file>
+			<welcome-file id = "5" version = "12345">index.html</welcome-file>
+			<welcome-file id = "6" version = "1fgfg">index.htm</welcome-file>
+			<welcome-file id = "7">index.jsp</welcome-file>
+			<welcome-file id = "8">default.html</welcome-file>
 			<welcome-file>default.htm</welcome-file>
 			<welcome-file>default.jsp</welcome-file>
 	

@@ -29,7 +29,7 @@ public class MyElement {
 	}
 
 	public MyElement() {
-		//this.name = name;
+		
 	}
 
 	public String getName() {
